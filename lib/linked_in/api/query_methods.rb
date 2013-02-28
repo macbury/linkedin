@@ -43,7 +43,7 @@ module LinkedIn
         simple_query(path, options)
       end
 
-      private
+      
 
         def simple_query(path, options={})
           fields = options.delete(:fields) || LinkedIn.default_profile_fields
